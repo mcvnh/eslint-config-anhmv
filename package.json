@@ -1,0 +1,28 @@
+{
+  "name": "eslint-config-anhmv",
+  "version": "1.0.0",
+  "description": "my eslint config",
+  "main": "main.js",
+  "author": "Anh Mac <anhmv91@gmail.com>",
+  "license": "UNLICENSED",
+  "private": true,
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "scripts": {
+    "test": "eslint --config ./env/node.js .",
+    "postversion": "git push && git push --tags"
+  },
+  "files": [
+    "main.js",
+    "env"
+  ],
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-plugin-vue": "^6.2.2"
+  },
+  "peerDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-plugin-vue": "^6.2.2"
+  }
+}
