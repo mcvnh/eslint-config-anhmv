@@ -5,7 +5,7 @@
   "main": "main.js",
   "author": "Anh Mac <anhmv91@gmail.com>",
   "license": "UNLICENSED",
-  "private": true,
+  "repository": "git://github.com/anhmv/eslint-config-anhmv.git",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
