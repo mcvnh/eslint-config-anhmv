@@ -5,10 +5,6 @@
   "main": "main.js",
   "author": "Anh Mac <anhmv91@gmail.com>",
   "license": "UNLICENSED",
-  "repository": "git://github.com/anhmv/eslint-config-anhmv.git",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "scripts": {
     "test": "eslint --config ./env/node.js .",
     "postversion": "git push && git push --tags"
