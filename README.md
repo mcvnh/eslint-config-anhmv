@@ -5,7 +5,7 @@
 To install the package, please run this command in your project
 
 ```bash
-$ yarn add @dev/eslint-config --dev
+$ yarn add eslint-config-anhmv --dev
 ```
 
 Your projects may have multiple environments (e.g. vue, cli). Please change your configuration in the `.eslintrc.js` to match with your expect:
@@ -15,7 +15,7 @@ Your projects may have multiple environments (e.g. vue, cli). Please change your
 ```js
 {
   "extends": [
-    "@dev/eslint-config/env/browser"
+    "anhmv/env/browser"
   ]
 }
 ```
@@ -25,7 +25,7 @@ Your projects may have multiple environments (e.g. vue, cli). Please change your
 ```js
 {
   "extends": [
-    "@dev/eslint-config/env/vue"
+    "anhmv/env/vue"
   ]
 }
 ```
@@ -35,7 +35,7 @@ Your projects may have multiple environments (e.g. vue, cli). Please change your
 ```js
 {
   "extends": [
-    "@dev/eslint-config/env/node"
+    "anhmv/env/node"
   ]
 }
 ```
@@ -45,7 +45,7 @@ Your projects may have multiple environments (e.g. vue, cli). Please change your
 ```js
 {
   "extends": [
-    "@dev/eslint-config/env/universal"
+    "anhmv/env/universal"
   ]
 }
 ```
